@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  background-image: radial-gradient(circle at 48% 48%,rgb(86 75 75 / 25%),rgba(255,255,255,0)),linear-gradient(#292828,#292828);
+}
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar-brand {
+  color: black !important;
+  font-size: 100px;
+  font-weight: 600;
+}
+.nav-link {
+  color: black !important;
+}
+h1{
+  font-size: 18px !important;
+}
+.flex-container {
+  display: flex !important;
+  position: relative;
+}
+.btn{
+  /* background-color: rgb(237, 21, 21) !important;
+  color: white !important; */
+}
+select {
+  box-shadow: none !important;
+}
+
+.sideNote {
+  font: bold 12px Sans-Serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #369;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 0 10px 0;
+  line-height: 24px;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+.fa-plus {
+  padding: .5rem;
+  font-size: 1.2rem;
+  cursor: grab;
+  border-radius: 50%;
+  background-color: rgb(103, 103, 163);
+}
+.fa-minus {
+  padding: .5rem;
+  font-size: 1.2rem;
+  cursor: grab;
+  border-radius: 50%;
+  background-color: rgb(139 139 82);
+}
+
+.fa-trash {
+  color: white;
+  padding: .5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.fa-trash:hover { 
+  color: red;
+  transition: .250s;
+}
+
+.fa-shopping-cart {
+  font-size: 2rem;
+}
+
+.fa-edit {
+  font-size: 1.5rem;
+  color: rgb(5, 154, 254);
+  cursor: pointer;
+  padding: .5rem;
+}
+.fa-trash-can {
+  font-size: 1.5rem;
+  color: red;
+  cursor: pointer;
+  padding: .5rem;
+}
+.pizzaSize {
+  font-size: 14px;
+  /*color: #00ffdb;*/
+  font-style: oblique;
+  position: absolute;
+  bottom: -15px;
+  right: 10px;
+  background: -webkit-linear-gradient(#2ffdec, #fab95b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* bottom: -25px;
+  right: 0px;
+  transform-origin: 0 0;
+  transform: rotate(-45deg); */
+}
+
+.orderList {
+  width: 100%;
+  height: 75vh;
+  overflow: auto;
+}
+.finalPrice {
+  font-size: 35px;
+  background: -webkit-linear-gradient(#b2ed11, #1cdcf1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input {
+  margin-top: 10px !important;
+  box-shadow: none;
+  padding: .7rem !important;
+}
+
+.registerUser, .loginUser {
+  text-decoration: none;
+  color: #6fb8de;
+  text-align: left !important;
+}
+
+#dropdownMenuButton:hover{
+  display: block !important;
+}
+.dropdown-menu {
+  right: 0 !important;
+}
+.h-650 {
+  height: 650px;
+}
+
+.main-footer {
+  background: #0f1d22;
+  background-image: radial-gradient(circle at 48% 48%,rgb(86 75 75 / 25%),rgba(255,255,255,0)),linear-gradient(#292828,#292828);
+  margin: 0px 10px 0px;
+  overflow: hidden;
+}
+.auto-container {
+  position: static;
+  max-width: 1580px;
+  margin: 0 auto;
+}
+
+.footer__title {
+  text-align: center;
+  padding: 108px;
+  border: 1px solid #715b3e;
+}
+.footer__title .footer__title__icon {
+  padding-bottom: 17px;
+}
+.footer__title .footer__title__icon img {
+  margin-right: 20px;
+  margin-top: -15px;
+}
+
+.sub____title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  color: #c9ab81;
+}
+.footer___title__text p {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 40px 0px 74px;
+}
+
+.footer-bottom .footer__logo {
+  padding-bottom: 30px;
+}
+.footer-bottom .footer__logo .logo-box {
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+figure {
+  margin: 0px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+.footer-bottom img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+.footer__menu ul, li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer-bottom .footer__menu li {
+  display: inline-block;
+  margin-right: 50px;
+}
